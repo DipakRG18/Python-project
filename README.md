@@ -47,14 +47,16 @@ cd railway-ticket-booking-system
   Start the server:
 python server.py
 Open Postman and test the API endpoints.
+
 #📖 API Endpoints
-#📌 Passengers
+📌 Passengers
 GET /passengers/ - Retrieve all passengers.
 GET /passengers/{id} - Retrieve a passenger by ID.
 POST /passengers/ - Create a new passenger.
 PUT /passengers/{id} - Update a passenger's details.
 DELETE /passengers/{id} - Delete a passenger.
-#📌 Trains
+
+📌 Trains
 GET /trains/ - Retrieve all trains.
 GET /trains/{id} - Retrieve a train by ID.
 POST /trains/ - Add a new train.
@@ -69,6 +71,7 @@ GET: To fetch data.
 POST: To create a new record (include JSON in the body).
 PUT: To update an existing record.
 DELETE: To delete a record.
+
 #🐛 Troubleshooting
 Database errors?
 Ensure MySQL is running and .env credentials are correct.
