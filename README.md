@@ -66,10 +66,15 @@ DELETE /trains/{id} - Delete a train.
 
 #🧪 Testing with Postman
 Open Postman and set the base URL to http://localhost:8000/.
+
 Use the following HTTP methods for testing:
+
 GET: To fetch data.
+
 POST: To create a new record (include JSON in the body).
+
 PUT: To update an existing record.
+
 DELETE: To delete a record.
 
 #🐛 Troubleshooting
