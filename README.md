@@ -51,20 +51,29 @@ Open Postman and test the API endpoints.
 #📖 API Endpoints
 📌 Passengers
 GET /passengers/ - Retrieve all passengers.
+
 GET /passengers/{id} - Retrieve a passenger by ID.
+
 POST /passengers/ - Create a new passenger.
+
 PUT /passengers/{id} - Update a passenger's details.
+
 DELETE /passengers/{id} - Delete a passenger.
 
 📌 Trains
 GET /trains/ - Retrieve all trains.
+
 GET /trains/{id} - Retrieve a train by ID.
+
 POST /trains/ - Add a new train.
+
 PUT /trains/{id} - Update train details.
+
 DELETE /trains/{id} - Delete a train.
+
 (Continue this for bookings, schedules, and payments.)
 
-#🧪 Testing with Postman
+🧪 Testing with Postman
 Open Postman and set the base URL to http://localhost:8000/.
 
 Use the following HTTP methods for testing:
@@ -77,8 +86,9 @@ PUT: To update an existing record.
 
 DELETE: To delete a record.
 
-#🐛 Troubleshooting
+🐛 Troubleshooting
 Database errors?
 Ensure MySQL is running and .env credentials are correct.
+
 Port already in use?
 Change the port in the run() function to an available one.
